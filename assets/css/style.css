@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   background: #ffffff;
-  color: #898989;
+  color: #353535;
   font-family: "Poppins", helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -51,13 +51,13 @@ p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
-  color: #999999;
+  color: #444444;
   line-height: 28px;
 }
 
 ::-moz-selection {
   background: #b8a07e;
-  color: #fff;
+  color: #999;
 }
 
 ::selection {
@@ -542,6 +542,7 @@ ul, li {
   background: #f7f7f7;
   position: relative;
   padding-bottom: 80px;
+  padding-top: 60px;
 }
 
 .services-block span {
@@ -563,7 +564,7 @@ ul, li {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #757575;
   line-height: 44px;
 }
 
