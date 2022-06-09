@@ -55,6 +55,14 @@ p {
   line-height: 28px;
 }
 
+ul, li {
+  list-style: none;
+  line-height: 30px;
+  padding-left: 5px;
+}
+
+
+
 ::-moz-selection {
   background: #b8a07e;
   color: #999;
@@ -499,10 +507,6 @@ p {
 #about .div-img-bg {
   padding-bottom: 30px;
   border: 20px solid #b8a07e;
-}
-
-ul, li {
-  list-style: none;
 }
 
 #about .div-img-bg .about-img img {
