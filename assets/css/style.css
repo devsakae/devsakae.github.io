@@ -534,10 +534,17 @@ ul, li {
 #about .about-descr .separator {
   max-width: 80%;
   margin-bottom: 0;
-  text-align: left;
+  text-align: justify;
 }
 
-
+#about .mininfo-left {
+  float: left;
+  max-width: 48%
+}
+#about .mininfo-right {
+  float: right;
+  max-width: 48%
+}
 
 /*--------------------------------------------------------------
 # Services
@@ -636,12 +643,12 @@ ul, li {
 }
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #666;
+  color: #222222;
   font-weight: 600;
   margin-bottom: 10px;
 }
 #portfolio .portfolio-item .portfolio-info p {
-  color: #999;
+  color: #333333;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -650,8 +657,8 @@ ul, li {
   position: absolute;
   right: 40px;
   font-size: 24px;
-  top: calc(50% - 18px);
-  color: #b8a07e;
+  top: calc(30% - 18px);
+  color: #3e3e3e;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
