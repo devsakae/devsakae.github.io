@@ -1,0 +1,36 @@
+body {
+    background-color: darkslategray;
+    color:antiquewhite;
+}
+a {
+    text-decoration: none;
+}
+.chamada {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:azure;
+}
+.cabecalho {
+    padding: 50px 70px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:antiquewhite;
+}
+.cabecalho h1 {
+    font-size: 20px;
+}
+.cabecalho span {
+    color:lightgreen;
+}
+.cabecalho a {
+    color:lightsalmon;
+    text-decoration: dotted;
+}
+.rodape {
+    padding: 10px 20px;
+    float: center;
+    border-color: red;
+}
+
+.bordasmoles {
+    border-radius: 15%;
+}
