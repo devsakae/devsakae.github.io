@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css';
+
 body {
   background: #ffffff;
   color: #353535;
@@ -60,8 +62,6 @@ ul, li {
   line-height: 30px;
   padding-left: 5px;
 }
-
-
 
 ::-moz-selection {
   background: #b8a07e;
@@ -1482,4 +1482,132 @@ blockquote {
     display: inline-block;
     margin-right: 0;
   }
+}
+
+.wrapper {
+	max-width: 400px;
+	margin: 50px auto;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.border-tlr-radius { 
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px; 
+}
+
+.text-center { text-align: center; }
+
+.radius { border-radius: 2px; }
+
+.padding-tb { padding-top: 1.6rem; padding-bottom: 1.6rem;}
+
+.shadowDepth1 {
+  box-shadow: 
+    0 3px 6px rgba(0,0,0, 0.12),
+    0 5px 9px rgba(0,0,0, 0.24);      
+}
+
+.card {
+	background-color: #fff;
+  min-height: 380px;
+}
+
+.card__padding {
+	padding: 1rem;
+}
+ 
+.card__image {
+	min-height: 100px;
+	background-color: #eee;
+}
+.card__image img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.card__content {
+	position: relative;
+}
+
+/* card meta */
+.card__meta time {
+	font-size: 1.5rem;
+	color: #bbb;
+	margin-left: 0.8rem;
+}
+
+/* card article */
+.card__article a {
+	text-decoration: none;
+	color: #444;
+	transition: all 0.5s ease;
+}
+.card__article a:hover {
+  color: #2980b9;
+}
+
+/* card action */
+.card__action {
+	overflow: hidden;
+	padding-right: 1.6rem;
+	padding-left: 1.6rem;
+	padding-bottom: 1.6rem;
+}
+  
+.card__author img,
+.card__author-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.card__author img{
+  border-radius: 50%;
+  margin-right: 0.6em;
+}
+
+.card__share {
+  float: right;
+  position: relative;
+  margin-top: -42px;
+}
+
+.share-toggle {
+  z-index: 2;
+}
+.share-toggle:before {
+  content: "\f09b";
+  font-family: 'FontAwesome';
+}
+.share-toggle.share-expanded:before {
+  content: "\f09b";
+}
+
+.share-icon {
+  display: inline-block;
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s ease;
+  outline: 0;
+  box-shadow: 
+    0 2px 4px rgba(0,0,0, 0.12),
+    0 2px 4px rgba(0,0,0, 0.24);
+}
+
+.share-icon:hover,
+.share-icon:focus {
+  box-shadow: 
+    0 4px 8px rgba(0,0,0, 0.12),
+    0 4px 8px rgba(0,0,0, 0.24);
+}
+
+.github {
+  background-color:#fff;
+  color: #000;
 }
